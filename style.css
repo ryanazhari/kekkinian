@@ -1,0 +1,417 @@
+h1 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 54px;
+    color: #070707;
+}
+
+p.p-des {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #8B8984;
+    margin-top: 18px;
+}
+
+.btn-pesan {
+    border-radius: 2px;
+    background: #f2ba4a;
+    padding: 16px 32px;
+    font-family: "Open Sans",sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #f0f0f0;
+    text-decoration: none;
+    transition: .3s ease-in;
+}
+
+.btn-pesan:hover {
+    background: #f89b22;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.btn-pesan.btn-tentang {
+    margin-top: 24px;
+}
+
+.btn-pesan.btn-follow {
+    margin-top: 42px;
+}
+
+.box-btn {
+    margin-top: 32px;
+}
+
+section.web-header {
+    height: 100vh;
+    background-color: #FFFAEF;
+    overflow: hidden;
+    background-image: url(img/bg-shape.svg);
+    background-size: cover;
+    background-position: center;
+}
+
+    section.web-header nav ul li {
+        margin: 0 12px;
+    }
+
+    section.web-header nav a.nav-link{
+        margin-top: 42px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        size: 14px;
+        color: #F0F0F0 !important;
+        transition: .3s ease-in;
+    }
+
+    section.web-header nav a.nav-link:hover {
+        color: #070707 !important;
+    }
+
+    section.web-header nav li.active a.nav-link {
+        font-family: "Open Sans", sans-serif;
+        font-weight: 600;
+        font-size: 14px;
+        color: #070707 !important;
+    }
+
+section.web-header .content-header {
+    margin-top: 100px;
+}
+
+    .content-header .content-cta {
+        margin-top: 32px;
+    }
+
+        .content-header .content-cta span {
+            font-family: "Source Sans Pro", sans-serif;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 26px;
+            color: #707070;
+            margin-right: 16px;
+        }
+    
+        .content-header .ilustrasi {
+            width: 90%;
+            margin-top: -42px;
+            opacity: 0;
+            transition: 1s;
+            transform: translate(18px, 0);
+        }
+
+section.web-tentang {
+    padding: 120px 0;
+}
+
+    section.web-tentang .hero-tentang {
+        width: 70%;
+        opacity: 0;
+        transform: translate(-24px,0);
+        transition: 1s;
+    }
+
+section.web-kategori {
+    padding: 120px 0;
+}
+
+section.web-kategori .box-kategori {
+    padding: 32px 0;
+    border-radius: 6px;
+    background: #f0f0f0;
+    transition: .3s ease-in;
+}
+
+section.web-kategori .box-kategori:hover {
+    background: #F2BA4A;
+    cursor: pointer;
+}
+
+section.web-kategori .box-kategori:hover p {
+    color: #f0f0f0 !important;
+}
+
+section.web-kategori .box-kategori p {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #999;
+    margin: 20px 0 0 0;
+}
+
+section.web-kategori .col-4 {
+    padding: 6px;
+}
+
+section.web-kategori .kategori-menu {
+    margin-top: 42px;
+}
+
+section.web-sosmed .more-sosmed {
+    margin-top: 32px;
+}
+
+.more-sosmed .sosmed a {
+    width: 52px;
+    height: 52px;
+    background: #ebebeb;
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 14px;
+    text-align: center;
+    line-height: 52px;
+}
+
+.more-sosmed .sosmed a img {
+    max-height: 42px;
+}
+
+section.web-sosmed .ig-content .col-md-4 {
+    padding: 0;
+    margin: 0;
+}
+
+.ig-content .img-fluid {
+    opacity: 0;
+    transition: 1s;
+    transform: translate(0,-18px);
+}
+
+section.web-lokasi {
+    padding: 120px 0;
+}
+
+section.web-lokasi iframe {
+    width: 100%;
+    height: 460px;
+    opacity: 0;
+    transition: 1s;
+    transform: translate(24px,0);
+}
+
+    .list-lokasi {
+        font-family: "Source Sans Pro";
+        font-weight: 400;
+        font-size: 18px;
+        color: #999;
+    }
+
+    .list-lokasi span {
+        width: 12px;
+        height: 12px;
+        background: #f2ba4a;
+        display: inline-block;
+        border-radius: 50%;
+        margin-right: 12px;
+    }
+
+section.web-online-order {
+    background-color: #FFFAEF;
+    padding: 42px 0;
+}
+
+section.web-online-order .brand-order {
+    margin-top: 42px;
+}
+
+.brand-order img {
+    opacity: 0;
+    transition: 1s;
+    transform: translate(0,-18px);
+}
+
+section.web-testimoni {
+    padding: 120px 0;
+}
+
+    section.web-testimoni .title-testimoni {
+        margin-bottom: 42px;
+    }
+
+    section.web-testimoni .box-testimoni {
+        padding: 26px;
+        border-radius: 4px;
+        background: transparent;
+        border: 1px solid #aeaba4;
+    }
+
+    .box-testimoni .bio {
+        padding: 0;
+    }
+
+    .box-testimoni .profil {
+        padding-right: 0;
+    }
+
+    .box-testimoni .bio h2 {
+        font-family: "Open Sans", sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        color: #070707;
+        margin: 0;
+    }
+
+    .box-testimoni .bio p {
+        font-family: "Source Sans Pro";
+        font-weight: 400;
+        font-size: 18px;
+        color: #aeaba4;
+        margin: 0;
+    }
+
+    .box-testimoni .bio hr {
+        width: 100px;
+        height: 0px;
+        margin: 5px 0 2px 0;
+        background: transparent;
+        border: 1px solid #aeaba4;
+    }
+
+    .box-testimoni .stars {
+        padding: 0;
+    }
+
+    .box-testimoni .stars .kutip {
+        float: right;
+        margin-top: -38px;
+        margin-right: 42px;
+        margin-bottom: 28px;
+    }
+
+section.web-footer {
+    padding-top: 40px;
+}
+
+    section.web-footer ul li {
+        font-family: "Source Sans Pro", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        color: #707070;
+        list-style-type: none;
+        margin-bottom: 10px;
+    }
+
+    section.web-footer ul li.list-title {
+        font-family: "Open Sans";
+        font-weight: 600;
+        font-size: 20px;
+        color: #070707;
+        margin-bottom: 20px;
+    }
+
+    section.web-footer .copy {
+        padding: 80px 0 16px 0;
+    }
+
+    .copy hr {
+        width: 70%;
+        height: 0px;
+        background: transparent;
+        border: 1px solid #aeaba4;
+    }
+
+    .copy p {
+        font-family: "Source Sans Pro";
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 54px;
+        text-align: center;
+        color: #aeaba4;
+    }
+
+
+/* Responsive */
+@media (max-width: 991px) {
+    section.web-header {
+        background-image: none;
+        height: 100%;
+        padding-bottom: 24px;
+    }
+    section.web-header nav {
+        padding: 24px 0;
+    }
+    .content-header .ilustrasi {
+        margin-top: 32px;
+    }
+    section.web-header .content-header {
+        margin-top: 60px;
+    }
+    
+    h1 {
+        font-family: "Open Sans", sans-serif;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 42px;
+        color: #070707;
+    }
+    .content-header .content-cta .btn-pesan {
+        border-radius: 2px;
+        background: #f2ba4a;
+        padding: 14px 26px;
+        font-size: 16px;
+    }
+
+    section.web-tentang {
+        padding: 70px 0;
+    }
+    
+        section.web-tentang .hero-tentang {
+            width: 70%;
+            margin-bottom: 32px;
+        }
+
+    section.web-kategori {
+        padding: 50px 0;
+    }
+
+    .ig-content {
+        margin-top: 24px;
+        padding: 0 15px;
+    }
+
+    .box-content-lokasi {
+        margin-top: 24px;
+    }
+    .box-testimoni {
+        margin-top: 18px;
+    }
+    section.web-footer ul li.list-title {
+        margin-top: 24px;
+    }
+    section.web-footer .copy {
+        padding: 40px 0 14px 0;
+    }
+    .copy hr {
+        width: 90%;
+    }
+    section.web-footer {
+        padding-top: 0;
+    }
+    section.web-testimoni {
+        padding: 80px 0;
+    }
+    section.web-lokasi {
+        padding: 80px 0;
+    }
+    section.web-header nav a.nav-link{
+        margin-top: 14px;
+        color: #707070 !important;
+    }
+
+}
+
+/* Parallax */
+.h1-header, p.p-des {
+    opacity: 0;
+    transition: 1.5s;
+    transform: translate(-24px, 0);
+}
+
+.show {
+    opacity: 1 !important;
+    transform: translate(0,0) !important;
+}
